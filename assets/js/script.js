@@ -285,6 +285,19 @@ setInterval(function () {
   });
 }, (1000 * 60) * 30);
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Staatliches", sans-serif;
+}
+
 // load tasks for the first time
 loadTasks();
 
